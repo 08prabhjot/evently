@@ -10,6 +10,11 @@
   </head>
 
   <body>
+  <nav>
+  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXJ7xW5NzUw_4OUgy70MOsNtqK9lHDM6OjuQ&usqp=CAU' >
+<a><%= link_to 'View Events', events_path%></a>
+<a><%= link_to 'Post Events', new_event_path%></a>
+</nav>
     <%= yield %>
   </body>
 </html>
